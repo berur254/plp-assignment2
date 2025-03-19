@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- Declare the document type and language -->
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <!-- Character encoding and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>My HTML5 Page</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Welcome to My HTML5 Page</h1>
+    </header>
+
+    <!-- Ordered list with Roman numerals -->
+    <section>
+        <h2>Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+    </section>
+
+    <!-- External image from pexels.com -->
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg" alt="Beautiful landscape" width="500">
+    </section>
+
+    <!-- Table of 5 contacts -->
+    <section>
+        <h2>Contact Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>gwakairo</td>
+                    <td>+1 (123) 456-7890</td>
+                    <td>john.doe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>donholm</td>
+                    <td>+1 (234) 567-8901</td>
+                    <td>jane.smith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>westlands</td>
+                    <td>+1 (345) 678-9012</td>
+                    <td>alice.johnson@example.com</td>
+                </tr>
+                <tr>
+                    <td>Bob Brown</td>
+                    <td>eldoret</td>
+                    <td>+1 (456) 789-0123</td>
+                    <td>bob.brown@example.com</td>
+                </tr>
+                <tr>
+                    <td>Charlie Davis</td>
+                    <td>meru</td>
+                    <td>+1 (567) 890-1234</td>
+                    <td>charlie.davis@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <!-- Name field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <!-- Email field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+            <br><br>
+
+            <!-- Date field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown menu -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+            </select>
+            <br><br>
+
+            <!-- Radio buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="traveling" name="interests" value="traveling">
+            <label for="traveling">Traveling</label>
+            <br><br>
+
+            <!-- Submit button -->
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- Multimedia elements -->
+    <section>
+        <h2>Multimedia</h2>
+        <!-- Audio element -->
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="audio-file.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Video element -->
+        <h3>Video</h3>
+        <video controls width="500">
+            <source src="video-file.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+    </footer>
+</body>
+</html>
